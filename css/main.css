@@ -50,6 +50,7 @@ body {
 html {
   overflow-x: hidden;
 }
+h2{text-transform: uppercase;}
 
 p {
   font-size: 16px;
@@ -102,7 +103,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.1 Section Title
    ========================================================================== */
 .section {
-  padding: 80px 0;
+  padding: 80px 15px;
 }
 
 .section-header {
@@ -1205,12 +1206,12 @@ button:focus {
 .form-control {
   width: 100%;
   margin-bottom: 10px;
-  padding: 14px;
+  padding: 12px;
   border-color: #fff;
   border-radius: 0px;
-  color: #fff;
-  background: transparent;
-  font-size: 14px;
+  color: #495057;
+ 
+  font-size: 12px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -1296,7 +1297,7 @@ footer {
 
 .form-wrapper {
 
-  padding: 30px 25px 20px;
+  padding: 10px 25px 10px;
 
   border-radius: 5px;
   background: #000;
@@ -1336,7 +1337,11 @@ span.form-pie {
 }
 
 @media (max-width: 767px){ 
+  .form-wrapper label {
+    font-size: 12px;
+}
 
+  .form-wrapper h4{font-size: 2em;}
   .section {
     padding: 30px 15px;
 }
