@@ -1405,6 +1405,7 @@ span.form-pie {
 @media(max-width:580px){
   .viisblemobil img{
     height: 250px;
+    width: 100%;
     -o-object-fit: cover;
         object-fit: cover;
     }
