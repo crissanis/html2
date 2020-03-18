@@ -1379,7 +1379,7 @@ span.form-pie {
   
 }
 
-  .form-wrapper h4{font-size: 2em;}
+  .form-wrapper h4{font-size: 1em;}
   .section {
     padding: 30px 15px;
 }
@@ -1412,10 +1412,11 @@ span.form-pie {
       position: absolute;
       z-index: 9999;
       top: 0;
-      right: 49%;
+      right: 44%;
   }
   .sinmar {
    
     opacity: 1;
 }
+h1{font-size: 28px ;}
 }
