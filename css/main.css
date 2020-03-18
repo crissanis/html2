@@ -1342,9 +1342,14 @@ span.form-pie {
   .sinpaadding{padding-left: 0;padding-right: 0;}
 }
 @media (min-width:768px){
+
+
   #testimonial .section-title{color:#fff;}
 }
+
+
 @media (max-width: 767px){ 
+
 #hero-area .container-fluid {padding-left: 0;padding-right: 0;}
   a.logo.navbar-btn.pull-left {
     display: block;
@@ -1397,4 +1402,20 @@ span.form-pie {
 
 
 }
-
+@media(max-width:580px){
+  .viisblemobil img{
+    height: 250px;
+    -o-object-fit: cover;
+        object-fit: cover;
+    }
+    div#logo {
+      position: absolute;
+      z-index: 9999;
+      top: 0;
+      right: 49%;
+  }
+  .sinmar {
+   
+    opacity: 1;
+}
+}
