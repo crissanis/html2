@@ -1333,6 +1333,7 @@ span.form-pie {
     height: 92px;
     margin-left: 20px;
   }
+  .padding2 {padding: 10px;}
   @media (min-width: 768px) and (max-width: 991.98px){
   #hero-area .container {
   
@@ -1356,7 +1357,7 @@ span.form-pie {
   
 }
   .sinmar {background: #000;    opacity: 0.7;}
-  .viisblemobil {display: block;}
+  .viisblemobil {display: block;background: #00bfff;}
   #hero-area {
     background: none;
    
