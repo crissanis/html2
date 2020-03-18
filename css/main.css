@@ -1319,7 +1319,7 @@ span.form-pie {
     color: #333;
   }
 
-  #testimonial .section-title{color:#fff;}
+  
   .text-footer span{color:#fff; font-size:12px;line-height: 14px;display: block;}
   #portfolios{padding-bottom: 10px;}
   .parrafo{font-size: 16px;}
@@ -1328,6 +1328,11 @@ span.form-pie {
   .descripcurso{text-align: justify;}
   .xxx{padding-left: 0;padding-right: 0;}
   #portfolios .container {padding-left: 0;padding-right: 0;}
+  .viisblemobil {display: none;}
+  .logo object {
+    height: 92px;
+    margin-left: 20px;
+  }
   @media (min-width: 768px) and (max-width: 991.98px){
   #hero-area .container {
   
@@ -1335,10 +1340,37 @@ span.form-pie {
   }
   .sinpaadding{padding-left: 0;padding-right: 0;}
 }
-
+@media (min-width:768px){
+  #testimonial .section-title{color:#fff;}
+}
 @media (max-width: 767px){ 
+#hero-area .container-fluid {padding-left: 0;padding-right: 0;}
+  a.logo.navbar-btn.pull-left {
+    display: block;
+    float: none;
+}
+.logo object {
+  height: 70px;
+  display: block;
+  margin: auto;
+  
+}
+  .sinmar {background: #000;    opacity: 0.7;}
+  .viisblemobil {display: block;}
+  #hero-area {
+    background: none;
+   
+   
+}
+
   .form-wrapper label {
     font-size: 12px;
+}
+.testimonial-item img {
+  width: 150px;
+ 
+  height: 150px;
+  
 }
 
   .form-wrapper h4{font-size: 2em;}
@@ -1354,4 +1386,14 @@ span.form-pie {
   font-size: 20px;
   text-transform: uppercase;
 }
+#testimonial {
+  background: transparent;
+  background-color: #efefef;
+  
+  color: #333;
+  
 }
+
+
+}
+
