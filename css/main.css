@@ -993,9 +993,9 @@ button:focus {
 }
 
 .testimonial-item img {
-  width: 80px;
+  width: 150px;
   border: 3px solid #fff;
-  height: 80px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -1331,7 +1331,19 @@ span.form-pie {
   .viisblemobil {display: none;}
   .logo object {
     height: 92px;
+    
+  }
+  .logo a {
+    background: white;
+    opacity: 0.9;
     margin-left: 20px;
+}
+  #testimonial {
+    background: transparent;
+    background-color: #efefef;
+    
+    color: #333;
+    
   }
   .padding2 {padding: 10px;}
   @media (min-width: 768px) and (max-width: 991.98px){
@@ -1340,11 +1352,6 @@ span.form-pie {
       max-width: initial;
   }
   .sinpaadding{padding-left: 0;padding-right: 0;}
-}
-@media (min-width:768px){
-
-
-  #testimonial .section-title{color:#fff;}
 }
 
 
@@ -1392,13 +1399,7 @@ span.form-pie {
   font-size: 20px;
   text-transform: uppercase;
 }
-#testimonial {
-  background: transparent;
-  background-color: #efefef;
-  
-  color: #333;
-  
-}
+
 
 
 }
